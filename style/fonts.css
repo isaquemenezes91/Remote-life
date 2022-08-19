@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.menu{
+    font-family: 'Montserrat',sans-serif;
+}
+.text-main{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    font-weight: bold;
+}
+#desejo-participar-btn-main{
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.title-quem-somos{
+    color: #09BDB2;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    line-height: 58.51px; 
+}
+.text-box-quem-somos{
+    font-family: 'Inconsolata';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25.18px;
+}
+
+
+.destaque{
+    color: #09BDB2;
+}
+
+
+/* funciona pra mim*/
+
+.title-funciona-para-mim{
+    color: #09BDB2;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 58.51px; 
+}
+.text-funciona-para-mim{
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    line-height: 25px;
+}
+.list-funciona-para-mim{
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    line-height: 25px;
+}
+/* COMO FUNCIONA*/
+
+.title-como-funciona{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 48.76px;
+    color: #09BDB2;
+
+}
+.first-text-box-como-funciona{
+    
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    line-height: 25px;
+}
+.second-text-box-como-funciona{
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    line-height: 25px;
+}
+.topicos-como-funciona{
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    line-height: 21px;
+    max-width: 580px;
+}
+
+/*tecnologias*/
+
+.titulo-tecnologias{
+    font-family: 'Roboto';
+    font-size: 32px;
+    line-height: 38px;
+    color: #09BDB2;
+}

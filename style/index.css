@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    border-bottom: 3px solid rgb(233, 232, 232);
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: white ;
+    z-index: 100;
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    flex-wrap: wrap;
+    color: black;
+    
+    
+}
+.logo{
+    width: 140px;
+    height: 78.68px; 
+    
+}
+.menu a{
+    margin-left: 59px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#desejo-participar-btn{
+    background: linear-gradient(180deg, #09BDB2 0%, #06857D 100%);
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    padding: 6.5px 40px 6.5px 40px;
+    border-radius: 15px;
+    color: white;
+}
+/*Desejo participar*/
+
+.alinhamento-text-btn{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.alinhamento-image-conteudo{
+    width: 100%;
+    height: 100%;
+    padding:4% 0 4% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+.text-main{
+    margin-top: 15px;
+    max-width: 619px;
+    
+}
+#desejo-participar-btn-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+    background: linear-gradient(180deg, #09BDB2 0%, #06857D 100%);
+    border-radius: 15px;
+    width: 405px;
+    height: 93px;
+    text-decoration: none;
+    cursor: pointer;
+}
+aside .hero{
+    width: 522px;
+    height: 522px;
+    padding-left: 10%;
+    margin-top: 84px;
+}
+
+/* QUEM SOMOS */
+.conteudo-quem-somos{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    margin-top: -72px;
+    
+}
+
+.text-box-quem-somos{
+    margin-top: 72px;
+    max-width: 527px;
+
+}
+.hero2{
+    padding-left: 10%;
+    width: 413px;
+    height: 613px;
+    z-index: 99;
+}
+.first-rectangle{
+    background-color: #06857D;
+    width: 360.95px;
+    height: 101.56px;
+    left: 24px;
+    top: 117px;
+    z-index: -1;
+    position: relative;
+}
+.seconf-rectangle{
+    background-color: #06857D;
+    width: 360.95px;
+    height: 101.56px;
+    left: 66px;
+    top: -119px;
+    z-index: -1;
+    position: relative;
+}
+
+/* FUNCIONA PRA MIM */
+
+.title-funciona-para-mim{
+    max-width:590px;
+    padding-bottom: 57px;
+    padding-top: 90px;
+}
+.conteudo-funciona-para-mim{
+    display: flex;
+    flex-direction: column;
+    padding-left: 76px;
+    
+
+}
+.text-funciona-para-mim{
+    max-width: 660px;
+    
+}
+.list-funciona-para-mim{
+    max-width: 660px;
+    position: relative;
+    left: 50px;
+    padding-bottom: 100px;
+}
+
+/* COMO FUNCIONA*/
+
+
+.conteudo-como-funciona{
+    display:flex;
+    flex-direction: column;
+}
+.first-text-box-como-funciona{
+    max-width: 548px;
+    padding-top: 35px;
+
+}
+.second-text-box-como-funciona{
+    max-width: 548px;
+    padding-top: 32px;
+
+}
+.topicos-como-funciona{
+    max-width: 580px;
+    padding-left: 18px;
+    padding-top: 32px;
+    padding-bottom: 50px ;
+}
+.alinhamento-image-conteudo-como-funciona{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 4%;
+}
+
+/*TECNOLOGIAS QUE DOMINAMOS*/
+.titulo-tecnologias{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 1250px;
+    padding-bottom:40px ;
+    
+}
+.card-menor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 361px ;
+    height: 117px;
+    background-color:#F4FFFE ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+.card-maior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 438px ;
+    height: 117px;
+    background-color:#F4FFFE ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin: 24px 20px 24px 20px;
+}
+/* NOSSOS PARCEIROS*/
+
+.title-parceiros{
+    font-family: "Montserrat";
+    font-size: 48px;
+    line-height: 59px;
+    color:#09BDB2 ;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+}
+.alinhamento-parceiros{
+    display: flex;
+    flex-direction: column;
+}
+.cards-parceiros{
+    display: flex;
+    flex-direction: row;
+    margin-top: 102px;
+}
+.card-parceiro{
+    display: flex;
+    justify-content: center;
+    width: 285px;
+    height: 284px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin: 10px;
+}
