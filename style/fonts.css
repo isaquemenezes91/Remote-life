@@ -83,3 +83,96 @@
     line-height: 38px;
     color: #09BDB2;
 }
+
+.title-vale-a-pena{
+    font-family:'Roboto';
+    color: #09BDB2;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+/* vale a pena ?*/
+.nome-mentorado{
+    font-family:'Montserrat';
+    font-size: 24px;
+    line-height: 30px;
+}
+.funcao-mentorado{
+    font-family:'Montserrat';
+    font-size: 16px;
+    line-height: 19px;
+    color: #09BDB2;
+}
+.descricao-mentorado{
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/*JUNTE-SE A NOS*/
+
+.title-junte-se{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: white;
+}
+
+.text-junte-se{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+.junte-se-a-nos-btn{
+    
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+/* FOOOTER*/
+
+.footer-contatos h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+.footer-contatos li{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.footer-menu h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+.footer-menu li{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}

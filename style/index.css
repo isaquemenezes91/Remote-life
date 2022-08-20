@@ -267,3 +267,173 @@ aside .hero{
     border-radius: 15px;
     margin: 10px;
 }
+
+/* A REMOTE VALE A PENA ?*/
+
+.vale-a-pena{
+    margin-top: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.alinhamento-vale-a-pena{
+    margin-top: 146px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.video{
+    
+    background-color: #787878;
+    width: 586px;
+    height: 462px;
+    border-radius: 20px;
+}
+
+.card-mentorados{
+    
+    display: flex;
+    flex-direction: row;
+    width: 463px;
+    height: 402px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: -4px 10px 40px rgba(0, 0, 0, 0.4);
+    margin-left: 129px;
+}
+.foto{
+    width: 64px;
+    height: 68px;
+    margin: 31px 18px 0 34px;
+}
+.nome-mentorado{
+    position: relative;
+    top: 42px;
+}
+.funcao-mentorado{
+  margin-top: 42px;
+    
+}
+.descricao-mentorado{
+    width: 296px;
+    margin-top: 6px;
+}
+
+/* JUNTE-SE A NOS*/
+
+.junte-se-a-nos{
+    margin-top: 215px ;
+    background-color: #6366F1;
+    width: 100%;
+    height: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.alinhamento-junte-se{
+    display: flex;
+    align-items: center;
+    
+}
+.junte-se-a-nos-btn{
+    margin-left: 410px;
+    padding: 16px 28px;
+    gap: 10px;
+    border: 1px solid #B7B5B5;
+    border-radius: 15px;
+    
+}
+
+/* FOOTER*/
+footer{
+    width: 100%;
+    background-color:#06857D ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    height: 350px;
+
+}
+.logo-branco{
+    width: 407px;
+    height: 229px;
+}
+.footer-menu {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 210px;
+}
+.footer-menu h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+.footer-menu li{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.footer-contatos{
+    height: 210px;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-contatos h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+.footer-contatos li{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.redes-sociais img {
+    padding-right: 36px;
+}
+
+
+
+
+
+hr{ 
+    border: 0.5px solid #09BDB2; 
+    
+}
+.copyright{ 
+    width: 100%;
+    background-color:#06857D ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 41px;
+    padding-bottom: 37px;
+}
