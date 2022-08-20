@@ -16,3 +16,22 @@
     filter: blur(200px);
     transform: matrix(0, 1, -1, -0.01, 0, 0);
 }
+
+
+#background2{
+    position: relative;
+    overflow: hidden;
+}
+#background2::before{
+    content: "";
+    position: absolute;
+    left: -46.31%;
+    right: -18.4%;
+    top: -0.59%;
+    bottom: 1%;
+    width: 61%;
+    height: 100%;
+    background: rgba(6, 133, 125, 0.15);
+    filter: blur(200px);
+    transform: matrix(0, 1, -1, -0.01, 0, 0);
+}

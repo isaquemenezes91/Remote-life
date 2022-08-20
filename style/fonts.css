@@ -62,22 +62,17 @@
     color: #09BDB2;
 
 }
-.first-text-box-como-funciona{
+.text-como-funciona{
     
     font-family: 'Inconsolata';
     font-size: 24px;
     line-height: 25px;
 }
-.second-text-box-como-funciona{
-    font-family: 'Inconsolata';
-    font-size: 24px;
-    line-height: 25px;
-}
-.topicos-como-funciona{
-    font-family: 'Inconsolata';
-    font-size: 20px;
-    line-height: 21px;
-    max-width: 580px;
+.btn-saiba-mais{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    line-height: 28px;
+    color: white;
 }
 
 /*tecnologias*/
